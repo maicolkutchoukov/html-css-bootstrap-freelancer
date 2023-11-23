@@ -22,7 +22,7 @@ img{
 
 .line{
     display: inline-block;    
-    width: 80px;
+    width: 100px;
     height: 3px;
     background-color: white;
     position: relative;
