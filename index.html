@@ -43,16 +43,12 @@
         
         <!-- Inizio Main -->
         <main>
-                <section class="main-color">
+                <section class="bg-success text-white">
                     <div class="container-md text-center mb-5">
-                        <div class="img_container pb-4">
-                            <img src="img/avatar.svg" class="img-fluid"alt="">
-                        </div>
-                        <h1 class="pb-4">START BOOTSTRAP</h1>
+                            <img src="img/avatar.svg" alt="">
+                        <h1 class="pb-4 pt-4">START BOOTSTRAP</h1>
                         <div class="star_container pb-4">
-                            <span class="line"></span>
                             <i class="fa-solid fa-star fa-2x"></i>
-                            <span class="line"></span>
                         </div>
                         <p class="pb-4 lead">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                     </div>
@@ -60,39 +56,39 @@
                 <section id="portfolio">
                     <div class="container-md text-center">
                         <h3 class="pb-4">PORTFOLIO</h3>
-                        <span class="line black"></span>
-                        <i class="fa-solid fa-star fa-2x"></i>
-                        <span class="line black"></span> 
+                        <div class="star_container black pb-4">
+                            <i class="fa-solid fa-star fa-2x"></i>
+                        </div>
                         <div class="row mt-2 mb-5">
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/cabin.png" class=" rounded" alt="">
+                                <img src="img/cabin.png" class="img-fluid rounded" alt="Cabin">
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/cake.png" class=" rounded" alt="">
+                                <img src="img/cake.png" class="img-fluid rounded" alt="Cake">
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/circus.png" class=" rounded" alt="">
+                                <img src="img/circus.png" class="img-fluid rounded" alt="Circus">
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/game.png" class=" rounded" alt="">
+                                <img src="img/game.png" class="img-fluid rounded" alt="Game">
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/safe.png" class=" rounded" alt="">
+                                <img src="img/safe.png" class="img-fluid rounded" alt="Safe">
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-4 my-2">
-                                <img src="img/submarine.png" class=" rounded" alt="">
+                                <img src="img/submarine.png" class="img-fluid rounded" alt="Submarine">
                             </div>
                         </div>                   
                     </div>
                 </section>
-                <section id="about" class="main-color">
+                <section id="about" class="bg-success text-white">
                     <div class="container-md mb-5 pt-4 pb-4">
                         <div class="container px-5">
                             <div class="text-center">
                                 <h3 class="pb-3">ABOUT</h3>
-                                <span class="line"></span>
-                                <i class="fa-solid fa-star fa-2x"></i>
-                                <span class="line"></span>
+                                <div class="star_container pb-4">
+                                    <i class="fa-solid fa-star fa-2x"></i>
+                                </div>
                             </div>
                             <div class="row text-left">
                                 <div class="col-sm-12 col-md-6 py-2 px-5">Freelancer is a free bootstrap theme created by Start
@@ -118,29 +114,29 @@
                         <div class="container ">
                             <div class="text-center">
                                 <h3 class="pb-3">CONTACT ME</h3>
-                                <span class="line black"></span>
-                                <i class="fa-solid fa-star fa-2x"></i>
-                                <span class="line black"></span>
+                                <div class="star_container black pb-4">
+                                    <i class="fa-solid fa-star fa-2x"></i>
+                                </div>
                             </div>
                             <form class="px-5">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput">Name</label>
+                                    <input type="text" class="form-control my-form-control border-dark-subtle" id="name" placeholder="name-example">
+                                    <label for="name">Name</label>
                                 </div>
                                 <div class="form-floating">
-                                    <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput">Email address</label>
+                                    <input type="email" class="form-control my-form-control border-dark-subtle" id="email" placeholder="name@example.com">
+                                    <label for="email">Email address</label>
                                 </div>
                                 <div class="form-floating">
-                                    <input type="tel" class="form-control my-form-control" id="floatingPassword" placeholder="Phone Number">
+                                    <input type="tel" class="form-control my-form-control border-dark-subtle" id="floatingPassword" placeholder="Phone Number">
                                     <label for="floatingPassword">Phone Number</label>
                                 </div>
                                 
-                                <div class="form-floating">
-                                    <textarea class="form-control my-form-control my-form-comment" id="floatingTextarea" placeholder="Password"></textarea>
-                                    <label for="floatingTextarea">Comments</label>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control my-form-control my-form-comment" id="message" placeholder="Leave a comment..."></textarea>
+                                    <label for="message">Comments</label>
                                 </div>
-                                <button type="button" class="btn main-color mt-2">Send</button>
+                                <button type="button" class="btn btn-success my-button">Send</button>
                             </form>
 
 

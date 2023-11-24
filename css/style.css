@@ -1,37 +1,33 @@
 /* 
     GENERAL
 */
-.main-color{
-    color: white;
-    background-color: #1ABC9C;
-    
-}
 
-.img_container{
-    max-width: 500px;
-    margin: 0 auto;
-}
+:root{
+    --bs-success-rgb: 26,188,156;
 
-.img_container img{
-    width: 50%;
 }
 
 img{
-    width: 100%;
+    max-width: 250px;
 }
 
-.line{
+
+.star_container::before,
+.star_container::after{
+    content:"";
     display: inline-block;    
-    width: 100px;
-    height: 3px;
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
     background-color: white;
     position: relative;
     bottom: 12px;
     margin: 0 5px;    
 }
 
-.line.black{
-    background-color: black;
+.star_container.black::before,
+.star_container.black::after{
+    background-color: rgb(var(--bs-dark-rgb))
 }
 
 .my-form-control{
@@ -41,9 +37,18 @@ img{
     border-right: 0;
 }
 
+.my-form-control:focus{
+    box-shadow: none;
+}
+
 .form-floating .my-form-comment{
     min-height: 200px;
     max-height: 300px;
+}
+
+.my-button{
+    --bs-btn-bg: rgb(26,188,156);
+    --bs-border-color:rgb(26,188,156);
 }
 
 .brands > i{
